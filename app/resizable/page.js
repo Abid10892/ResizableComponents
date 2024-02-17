@@ -3,7 +3,7 @@ import React from "react";
 import { Resizable } from "re-resizable";
 import Image from "next/image";
 
-const Home = () => {
+const page = () => {
   return (
     <>
       <div
@@ -34,14 +34,12 @@ const Home = () => {
             style={{
               display: "flex",
               flexDirection: "column",
-              width: "250px",
-              height: "200px",
               justifyContent: "center",
               alignItems: "center",
               gap: "5px",
             }}
           >
-            <h2 style={{ textAlign: "center" }}>Component 1</h2>
+            <h2>Component 1</h2>
             <Image
               src={"/img1.jpg"}
               width={108}
@@ -72,14 +70,12 @@ const Home = () => {
             style={{
               display: "flex",
               flexDirection: "column",
-              width: "250px",
-              height: "200px",
               justifyContent: "center",
               alignItems: "center",
               gap: "5px",
             }}
           >
-            <h2 style={{ textAlign: "center" }}>Component 2</h2>
+            <h2>Component 2</h2>
             <Image
               src={"/img1.jpg"}
               width={108}
@@ -118,14 +114,12 @@ const Home = () => {
             style={{
               display: "flex",
               flexDirection: "column",
-              width: "250px",
-              height: "200px",
               justifyContent: "center",
               alignItems: "center",
               gap: "5px",
             }}
           >
-            <h2 style={{ textAlign: "center" }}>Component 3</h2>
+            <h2>Component 3</h2>
             <Image
               src={"/img1.jpg"}
               width={108}
@@ -142,4 +136,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default page;
